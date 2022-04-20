@@ -13,6 +13,7 @@ messages =[(2 , 7) ,
 set_len =len(messages)
 
 s= Optimize()
+#s.set(priority='pareto')
 rt =[]
 
 vars =[ Int('vars_ %d' % i) for i in range ( set_len )]
